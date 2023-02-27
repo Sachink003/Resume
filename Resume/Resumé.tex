@@ -1,0 +1,207 @@
+
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{fontawesome5}
+\usepackage{multicol}
+\setlength{\multicolsep}{-3.0pt}
+\setlength{\columnsep}{-1pt}
+\input{glyphtounicode}
+
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.6in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1.19in}
+\addtolength{\topmargin}{-.7in}
+\addtolength{\textheight}{1.4in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large\bfseries
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\classesList}[4]{
+    \item\small{
+        {#1 #2 #3 #4 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{1.0\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & \textbf{\small #2} \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{1.001\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & \textbf{\small #2}\\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemi{$\vcenter{\hbox{\tiny$\bullet$}}$}
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.0in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING----------
+% \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+%   \textbf{\href{http://sourabhbajaj.com/}{\Large Sourabh Bajaj}} & Email : \href{mailto:sourabh@sourabhbajaj.com}{sourabh@sourabhbajaj.com}\\
+%   \href{http://sourabhbajaj.com/}{http://www.sourabhbajaj.com} & Mobile : +1-123-456-7890 \\
+% \end{tabular*}
+
+\begin{center}
+    {\Huge \scshape Sachin Kumar Muthukumar} \\ \vspace{1pt}
+    Waterloo, ON, Canada \\ \vspace{1pt}
+    \small \raisebox{-0.1\height}{\faPhone}+ 1 2269789793 $|$
+    \href{mailto:skmuthuk@uwaterloo.ca}{\underline{\faEnvelope \ skmuthuk@uwaterloo.ca}} $|$ 
+    \href{https://sachink003.github.io/}{\underline{\faGlobe} Website} $|$
+    \href{https://github.com/Sachink003}{\underline{\faGithub} GitHub}
+    \vspace{-8pt}
+
+    % \small \raisebox{-0.1\height}\faPhone\ +1 (226) 978-9793 ~ \href{mailto:sachin2003muscat@gmail.com}{\raisebox{-0.2\height}\faEnvelope\  \underline{sachin2003muscat@gmail.com}} ~
+    % \small \raisebox{-0.1\height}\faGlobe\ \url{https://sachink003.github.io/}
+    % \vspace{-8pt}
+\end{center}
+
+
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {University of Waterloo}{September, 2021 -- April, 2026}
+      {Bachelor of Mathematics in Math Finance \& Pure Mathematics (Honours)}{Waterloo, Canada}
+      \resumeItemListStart
+        \resumeItem{GPA: 4.0/4.0}
+        \resumeItem{Awards: Dean's List with distinction and President Scholarship}
+      \resumeItemListEnd
+    \resumeSubHeadingListEnd
+
+%-----------EXPERIENCE-----------
+\section{Experience}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {New York Institute of Finance}{July, 2022 - August, 2022}
+      {Research Intern}{New York, USA}
+      \resumeItemListStart
+        \resumeItem{Area of research: Mathematical (Quantitative) Finance}
+        \resumeItem{Research paper: Measuring hedged risk using abstract mathematical techniques}
+      \resumeItemListEnd      
+    \resumeSubheading
+      {Bank Muscat}{May, 2022 - July, 2022}
+      {Quantitative Investment research summer Intern}{Muscat, Oman}
+      \resumeItemListStart
+        \resumeItem{Worked in the Asset management \& Capital Markets department at the head office. Worked closely with the head portfolio manager.}
+        \resumeItem{Analysed GCC and Indian equity \& fixed income markets using quantitative techniques (mathematical \& statistical analysis). Programmed statistical analysis using R \& excel.}
+        \resumeItem{Kept track of all the specialized investment funds designed by the bank such as Oryx fund, dynamic fund etc. Designed PowerPoints for existing and new investors.}
+      \resumeItemListEnd
+    \resumeSubheading
+      {AmplifyME}{December, 2021}
+      {Finance Accelerator Simulation }{London, England}
+      \resumeItemListStart
+        \resumeItem{Gained insights by working in Sales \& Trading in IBD \& Asset Management, managed a virtual diversified equity portfolio of \$20 million in the US Market \& a return of 10\% by actively executing trades at the best prices during the asset management session.}
+        \resumeItem{Performed the role of a trader \& an asset manager on a Amplify simulation platform.}
+        \resumeItem{Accomplished to be top 10\% of all participants in terms of returns generated.}
+        \resumeItem{Maintained healthy client relationships while maximizing the commissions for the investment bank during the Sales \& trading session at the lowest possible risk.}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Cetera Model United Nations (NPO)}{June, 2019 -- July, 2021}
+      {Director of Finance}{Muscat, Oman}
+      \resumeItemListStart
+        \resumeItem{Helped the organization in managing their cashflows and efficiently allocating their funds.}
+        \resumeItem{Helped in acquiring sponsorship from many organizations \& companies from Oman \& India.}
+        \resumeItem{Interviewed many executive board members (Directors \& Deputy Directors) for heading the UN Committees.}
+        \resumeItem{We transferred all the profit to a charity organization in Oman called Dar-al-atta}
+    \resumeItemListEnd
+    \textit{\small Deputy Director of United Nations office on Drugs \& Crimes (UNODC)}
+    \vspace*{-7pt}
+       \resumeItemListStart
+         \resumeItem{Helped in organizing and setting up all Model United Nation's committees.}
+         \resumeItem{Gave marketing strategies for advertising the Model United Nation and the committees}
+         \resumeItem{Decided the topic for my committee which was "legalizing marijuana for medical purposes".}
+    \resumeItemListEnd
+  \resumeSubHeadingListEnd
+\vspace{-16pt}
+
+%-----------PROGRAMMING SKILLS-----------
+\section{Skills, Activities \& Interests}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Languages}{: English, Tamil, Hindi (Basic Proficiency)} \\
+     \textbf{Technical Skills}{: R software, Python, MySQL, Racket, Wolfram Language, MATLAB, \LaTeX, Bloomberg Terminal, MS Office.} \\
+     \textbf{Competitions}{: National Case Competition, UW CPA Case Competition, Tiger Global Case Competition, Wharton Global High School Investment Competition, International Benchmark Test in Mathematics conducted by The Australian Council for Educational Research (2017), Indian School Muscat Model United Nations. Cambridge STEP Mathematics Examination} \\
+     \textbf{Clubs \& Memberships}{: CPA Canada Post-Secondary Ambassador Program, UW Poker Club, Toastmasters Gavels Club, ISM Finance Club.} \\
+     \textbf{Certifications}{: Bloomberg Market Concepts} \\
+    }}
+ \end{itemize}
+ \vspace{-16pt}
+ 
+\end{document}
